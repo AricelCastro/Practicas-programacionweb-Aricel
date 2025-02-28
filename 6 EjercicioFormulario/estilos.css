@@ -1,0 +1,64 @@
+body {
+    font-family: "Poppins", sans-serif; /* Corregido */
+    font-style: italic; /* Ahora el texto es cursivo */
+    background-color: #eda4e3;
+    text-align: center;
+}
+
+h1 {
+    font-size: 18px;
+    color: #a66fdd;
+    font-weight: 600;
+   
+}
+
+
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 300px; /* Aumentar el ancho */
+    margin: auto; /* Centrar */
+    box-shadow: 0px 4px 10px rgba(161, 29, 29, 0.2);
+}
+
+
+label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #c453a0;
+    display: block;
+    margin-top: 10px; /* Corregido */
+}
+
+input, select {
+    padding: 12px;
+    margin: 5px 0;
+    width: 30%;
+    border-radius: 20px; /* Más redondeado */
+    border: 1px solid #b0b0b0;
+    background-color: #f9f9f9;
+    font-size: 14px;
+}
+
+button {
+    background-color: #aa0e95;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 28px; /* Más redondeado */
+    border: none;
+    padding: 12px;
+    width: 40%; /* Ajustar ancho */
+    display: block; /* Para que tome el margen automático */
+    margin: 10px auto; /* Centrar horizontalmente */
+    transition: background 0.3s;
+}
+button:hover {
+    background-color: #5A189A;
+}
+
+button i {
+    margin-right: 8px;
+}
